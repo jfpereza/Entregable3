@@ -5,6 +5,7 @@ const Contenedor = require('./container.js')
 
 
  const app = express()
+ const PORT =process.env.PORT || 8080
   app.get('/',(req,res) =>{res.send(' yooo')})
 
   app.get('/api/productos',(req,res) =>{
@@ -12,7 +13,8 @@ const Contenedor = require('./container.js')
     }),
 
  
-  app.listen(8080)
+  //app.listen(8080)
+
 
 container.save({
     id: 1,
