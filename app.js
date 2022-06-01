@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8080
  const app = express()
  
 
-   app.get('/',(req,res) =>{res.send(' yooo')}) //http://localhost:8080/
+   app.get('/',(req,res) =>{res.send('BACKEND')}) //http://localhost:8080/
 
   app.get('/api/products',(req,res) =>{
       const data = JSON.parse(fs.readFileSync(dbfile,'utf-8'))
