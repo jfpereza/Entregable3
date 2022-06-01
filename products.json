@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "batman",
+        "lastname": "DeLaCalle",
+        "age": "unknown",
+        "Wanted": "si",
+        "price": 2
+    },
+    {
+        "id": 2,
+        "name": "Robin",
+        "lastname": "DeLaCalle",
+        "age": "unknown",
+        "Wanted": "si",
+        "price": 4444444
+    },
+    {
+        "id": 3,
+        "name": "guazon",
+        "lastname": "DeLaCalle",
+        "age": "unknown",
+        "Wanted": "si",
+        "price": 111
+    }
+]
